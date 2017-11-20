@@ -9,7 +9,7 @@
     </head>
     <body>
        <header>
-           <nav class="navigator first-nav">
+           <nav class="first-nav">
               <div class="navigator first-nav-left">
                <a href="#" class="navigator tables-button">
                    <span class="navigator icon-trello"></span><p class="navigator tables">Tableros</p>
@@ -30,8 +30,9 @@
                    <div class="navigator user">A</div>
                </div>
            </nav>
-           <nav class="second-nav">
-             <div class="navigator second-nav-left">
+       </header>
+       <nav class="second-nav">
+             <div class="second-nav-left">
               <div class="navigator second-nav-button">
                <div class="navigator table-title"><p class="title">Human Rights Campaign</p></div>
                <div class="navigator favorite"><span class="icon-star"></span></div>
@@ -42,10 +43,28 @@
                </div>
                </div>
            </nav>
-       </header>
-       <main>
-           <div class="navigator target">
-               <p class="list">Añadir una lista...</p>
+       <main id="feed-target">
+           <div id="target_first" class="navigator target">
+               <p id="add-list" class="list">Añadir una lista...</p>
+           </div>
+           <div id="create" class="inactive form-create">
+              <form class="insert-name-form">
+               <input id="insert-name-input" class="insert-name" type="text">
+               </form>
+               <button id="save-target" class="save">Save</button><span class="icon-close"></span>
+           </div>
+           <div id="new-table-tag" class="inactive new-table">
+               <p id="editable-paragraph"></p><span class="dots" class="dots icon-dots-three-horizontal"></span>
+               <div class="add-target">
+                   <p id="button-adding"class="button-add">Añadir una tarjeta...</p>
+               </div>
+           </div>
+           <div id="editable-table-pin" class="inactive editable-table">
+                <p id="editable-paragraph2" class="editable-paragraph"></p><span class="dots icon-dots-three-horizontal"></span>
+                <div class="textarea-feed">
+                <textarea id="first-textarea"></textarea>
+                </div>
+                 <button id="save-button" class="save">Add</button><span class="icon-close"></span><span class="dots icon-dots-three-horizontal"></span>
            </div>
        </main>
         <script type="text/javascript" src="js/app.js">

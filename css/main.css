@@ -7,7 +7,7 @@ body {
     background-color: rgb(0, 121, 191);
 }
 div {
-    outline: 1px solid red;
+    /*outline: 1px solid red;*/
 }
 header {
     background-color: #116BB0;
@@ -23,12 +23,16 @@ header {
     margin-right: 8px;
     padding-bottom: 0;
     padding-top: 0;
+    border-radius: 10px;
 }
 .icon-trello, .tables {
     color: #fff;
     margin-bottom: 8px;
     margin-top: 8px;
     opacity: 0.9;
+}
+.container-trello-logo {
+    margin: 0 30% 0 25%;
 }
 .navigator {
     display: inline-block;
@@ -49,12 +53,19 @@ header {
     background-color: #1F86B7;
     border:none;
     outline: none;
+    height: 20px;
 }
 .user {
     outline: none;
     border-radius: 50%;
     width: 30px;
     height: 30px;
+    color: #fff;
+    background-color:  #1F86B7;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding: 8px 3px 0 3px;
 }
 .icons {
     width: 30px;
@@ -62,7 +73,10 @@ header {
     color: #fff;
     font-size: 20px;
     background-color: #1F86B7;
-    padding: 0;
+    padding: 8px 3px 0 3px;
+    border-radius: 5px;
+    margin-top: 0;
+    text-align: center;
 }
 .icon-search {
     font-size: 17px;
@@ -72,4 +86,132 @@ header {
     opacity: 0.9;
     padding-top: 4px;
     outline: none;
+}
+.second-nav {
+    padding: 2px 10px;
+}
+.nav-icons {
+    float: right;
+}
+.table-title {
+    font-weight: 600;
+    color: #fff;
+    padding: 0 10px 0 10px;
+    margin: 0;
+    opacity: 0.9;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.table-title:hover {
+    background-color: #2756a3;
+}
+nav {
+    /*outline: 1px solid green;*/
+}
+.icon-star {
+    font-weight: 600;
+    color: #fff;
+    opacity: 0.9;
+}
+.lock {
+    margin: 0 10px;
+}
+.icon-lock, .private {
+    display: inline-block;
+    color: #fff;
+    opacity: 0.9;
+}
+.menu {
+    float: right;
+    margin-right: 0;
+    padding-top: 1.5%;
+    color: #fff;
+}
+.link-menu {
+    color: #fff;
+    margin-left: 10px;
+}
+
+.target {
+    background-color: #116BB0;
+    border-radius: 10px;
+    color: #fff;
+    opacity: 0.6;
+    margin: 15px 10px 10px 15px;
+    padding: 0 10px;
+    cursor: pointer;
+    padding: 0 90px 0 10px;
+}
+.target:hover {
+    background-color: #2756a3;
+}
+.form-create {
+    background-color: #d7deea;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 7px;
+}
+.inser-name {
+    background-color: #c9ccd3;
+    width: 150px;
+    height: 28px;
+    border-radius: 8px;
+}
+.insert-name-form {
+    height: 30px;
+}
+.save {
+    background-color: #51b56c;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 18px;
+    cursor: pointer;
+}
+.icon-close {
+    margin-left: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.new-table {
+    background-color: #d7deea;
+    display: inline-block;
+    padding: 8px;
+    border-radius: 8px;
+}
+.add-target {
+    cursor: pointer;
+}
+.add-target:hover {
+    color: #8b9091;
+    text-decoration: underline;
+}
+.button-add:hover {
+     text-decoration: underline;
+}
+.button-add, .dots {
+    color: #8b9091;
+    float: right;
+}
+.editable-table {
+    background-color: #d7deea;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 8px;
+}
+textarea {
+    height: 60px;
+    width: 260px;
+}
+.dots {
+    float: right;
+}
+.inactive {
+    visibility: hidden;
+}
+.active {
+    visibility: visible;
 }
